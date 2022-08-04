@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    background-color: black;
+    color: wheat;
+}
+
+.transition-width {
+    transition: width 200ms ease-out;
+}

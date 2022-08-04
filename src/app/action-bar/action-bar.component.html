@@ -1,0 +1,12 @@
+<div>
+    <button type="button" (click)="decrese()">-</button>
+    <input type="text" [value]="counter" *ngIf="inputDisplay else elseTemplate">
+    <ng-template #elseTemplate>
+        <span style="font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+">{{counter}}</span>
+    </ng-template>
+    <button type="button" (click)="increse()">+</button>
+</div>
